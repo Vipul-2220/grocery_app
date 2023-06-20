@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:grocery_app/Screens/Auth/signIn.dart';
 import 'package:grocery_app/Screens/Auth/signUp.dart';
-import 'package:grocery_app/Screens/homescreen.dart';
+import 'package:grocery_app/Screens/HomeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const SignUpScreen(),
+      home: const HomeScreen(),
     );
   }
 }
